@@ -2,8 +2,56 @@
   "lockfile_version": "1",
   "packages": {
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
-      "last_modified": "2025-05-22T23:55:03Z",
-      "resolved": "github:NixOS/nixpkgs/fe51d34885f7b5e3e7b59572796e1bcb427eccb1?lastModified=1747958103&narHash=sha256-qmmFCrfBwSHoWw7cVK4Aj%2Bfns%2Bc54EBP8cGqp%2FyK410%3D"
+      "last_modified": "2025-05-25T15:24:27Z",
+      "resolved": "github:NixOS/nixpkgs/bdac72d387dca7f836f6ef1fe547755fb0e9df61?lastModified=1748186667&narHash=sha256-UQubDNIQ%2FZ42R8tPCIpY%2BBOhlxO8t8ZojwC9o2FW3c8%3D"
+    },
+    "go@1.21.9": {
+      "last_modified": "2024-05-03T15:42:32Z",
+      "resolved": "github:NixOS/nixpkgs/5fd8536a9a5932d4ae8de52b7dc08d92041237fc#go_1_21",
+      "source": "devbox-search",
+      "version": "1.21.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fwnqxipshzffpg7x6kwvp24yllwzaq1i-go-1.21.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fwnqxipshzffpg7x6kwvp24yllwzaq1i-go-1.21.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/041scml4rqhk0b87rcaa4b1zk3yckgbf-go-1.21.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/041scml4rqhk0b87rcaa4b1zk3yckgbf-go-1.21.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gz9addf37imxbwqkilfm3wm2hbz5k110-go-1.21.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gz9addf37imxbwqkilfm3wm2hbz5k110-go-1.21.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fhcgycswji65n5khvc4dj0x8f5asvwhs-go-1.21.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fhcgycswji65n5khvc4dj0x8f5asvwhs-go-1.21.9"
+        }
+      }
     },
     "opentofu@latest": {
       "last_modified": "2025-05-16T20:19:48Z",
