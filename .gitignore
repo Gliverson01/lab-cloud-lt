@@ -23,3 +23,12 @@ go.work.sum
 
 # env file
 .env
+.envrc
+
+bin
+
+# terraform state files
+*tfstate*
+.terraform*
+
+aws-nuke.yaml

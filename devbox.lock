@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "direnv@latest": {
+      "last_modified": "2025-05-16T20:19:48Z",
+      "resolved": "github:NixOS/nixpkgs/12a55407652e04dcf2309436eb06fef0d3713ef3#direnv",
+      "source": "devbox-search",
+      "version": "2.36.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9cfr229ml8lkw3rpsfhz318gy833rq44-direnv-2.36.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9cfr229ml8lkw3rpsfhz318gy833rq44-direnv-2.36.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bazsc3nfcz7pgvdcll1p7gi2442h5mg1-direnv-2.36.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bazsc3nfcz7pgvdcll1p7gi2442h5mg1-direnv-2.36.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mphpm6ikdab03kai7h3rvl3z0qxsf6g1-direnv-2.36.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mphpm6ikdab03kai7h3rvl3z0qxsf6g1-direnv-2.36.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wr9gi46jzk63wff2d0y4m3ngqnraq4p6-direnv-2.36.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wr9gi46jzk63wff2d0y4m3ngqnraq4p6-direnv-2.36.0"
+        }
+      }
+    },
     "github:NixOS/nixpkgs/nixpkgs-unstable": {
       "last_modified": "2025-05-25T15:24:27Z",
       "resolved": "github:NixOS/nixpkgs/bdac72d387dca7f836f6ef1fe547755fb0e9df61?lastModified=1748186667&narHash=sha256-UQubDNIQ%2FZ42R8tPCIpY%2BBOhlxO8t8ZojwC9o2FW3c8%3D"
